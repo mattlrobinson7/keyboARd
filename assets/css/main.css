@@ -1412,7 +1412,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family:  Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -1460,7 +1460,7 @@
 
 	strong, b {
 		color: #fff;
-		font-weight: 600;
+		font-weight: 800;
 	}
 
 	em, i {
@@ -1473,7 +1473,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
-		font-weight: 800;
+		font-weight: 400;
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
