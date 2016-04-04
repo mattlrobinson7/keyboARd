@@ -1964,7 +1964,9 @@
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
 			}
 
 		.image.fit {
@@ -2379,7 +2381,7 @@
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
+			padding: 4em 2em 2em 6em ;
 			display: block;
 			position: relative;
 			text-align: left;
