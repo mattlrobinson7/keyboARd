@@ -1975,6 +1975,13 @@
 			width: 100%;
 		}
 
+		.image.blog img {
+			display: block;
+			width: 25%;
+			margin: auto;
+
+		}
+
 			.image.fit img {
 				width: 100%;
 			}
