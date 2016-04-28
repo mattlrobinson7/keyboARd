@@ -98,7 +98,40 @@
 								</p>
 
 								<hr />
-
+								
+								<h2>Week 5</h3>
+								<h5>April 27, 2016</h5>
+								
+								<p>This was a big week for us in the holographic world. Looking back to a week ago, all we had was a static piano model that we made, a keyboard that didn’t do anything yet, and high hopes. However, this week we made a ton of progress. As of now, a simple song (Mary had a Little Lamb) lights up the keys and the notes rain in from the distance.</p>
+								<div class="image blog"><img src="images/KeyboardGif.gif" alt="" /></div>
+								<p>We also were able to connect the physical keyboard to the hololens via the networking tools in unity and get them to communicate with one another. Now when a user opens the app, they can press keys on the physical keyboard and receive visual feedback on whether or not the right note is being played based on the color that comes up. Green for correct key pressed and red for incorrect key pressed.</p>
+								<p>A huge victory for the week was today when Hayoun figured out how to read in a MIDI file that we found online, parse it and extract the notes that were supposed to be played, and make it successfully light up the keyboard playing Beethoven’s Fur Elise.</p>
+								<div class="image blog"><img src="images/sequencer.gif" alt="" /></div>
+								<p>This is a huge opportunity for us to have hundreds or thousands of songs available. Instead of hard coding songs, with a little more work we can download a midi file from anywhere and have it work with our system. </p>
+								<p>Our goals for the rest of this week and next week include:</p>
+								<ul>
+									<li>Positioning virtual keyboard on top of actual keyboard.</li>
+									<li>Determine best way to handle more advanced songs.
+									<ul>
+										<li>Right now we can only work with songs that play one note at a time</li>
+									</ul></li>
+									<li>Continue work on MIDI reading.
+									<ul>
+										<li>Fixing minor glitches in generating KeyColor</li>
+										<li>Integrating MusicRain and the MIDI reader</li>
+									</ul></li>
+									<li>Create Simple menu.
+									<ul>
+										<li>Select Song (If all goes well with MIDI)</li>
+										<li>Start button</li>
+									</ul></li>
+									<li>Ability to restart song.
+									<ul>
+										<li>Currently we have to re-launch the application in order to restart</li>
+									</ul></li>
+									<li>Key press feedback accuracy and effects.</li>
+								</ul>
+								<p>We're looking forward to seeing what comes this next week and how well we can figure out these issues!</p>
 							</div>
 						</section>
 
