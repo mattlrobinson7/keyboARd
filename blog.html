@@ -103,10 +103,10 @@
 								<h5>April 27, 2016</h5>
 								
 								<p>This was a big week for us in the holographic world. Looking back to a week ago, all we had was a static piano model that we made, a keyboard that didn’t do anything yet, and high hopes. However, this week we made a ton of progress. As of now, a simple song (Mary had a Little Lamb) lights up the keys and the notes rain in from the distance.</p>
-								<div class="image blog"><img src="images/KeyboardGif.gif" alt="" /></div>
+								<div class="image"><img src="images/keyboardGif.gif" alt="" /></div>
 								<p>We also were able to connect the physical keyboard to the hololens via the networking tools in unity and get them to communicate with one another. Now when a user opens the app, they can press keys on the physical keyboard and receive visual feedback on whether or not the right note is being played based on the color that comes up. Green for correct key pressed and red for incorrect key pressed.</p>
 								<p>A huge victory for the week was today when Hayoun figured out how to read in a MIDI file that we found online, parse it and extract the notes that were supposed to be played, and make it successfully light up the keyboard playing Beethoven’s Fur Elise.</p>
-								<div class="image blog"><img src="images/sequencer.gif" alt="" /></div>
+								<div class="image"><img src="images/sequencer.gif" alt="" /></div>
 								<p>This is a huge opportunity for us to have hundreds or thousands of songs available. Instead of hard coding songs, with a little more work we can download a midi file from anywhere and have it work with our system. </p>
 								<p>Our goals for the rest of this week and next week include:</p>
 								<ul>
@@ -132,6 +132,24 @@
 									<li>Key press feedback accuracy and effects.</li>
 								</ul>
 								<p>We're looking forward to seeing what comes this next week and how well we can figure out these issues!</p>
+
+
+							<hr />
+								
+								<h2>Week 6</h3>
+								<h5>May 5, 2016</h5>
+
+								<p>We had another awesome week getting some pretty big things figured out for our project. Most of the week we were stuck on how to corrrectly move the keyboard using the TapToPlace script from the HoloToolkit but on Tuesday we solved that issue, which of course presented us with a new issue. When the keyboard was placed, it seemed to make the music rain from the original spot of the keyboard and move toward the new spot which looked very bad and was pretty much unusable. However, in the last 30 minutes of lab, our team found a solution using some intense trigonometry. Essesntially when we rotated the keyboard in whatever way, we needed to make sure that the distance from the keys to where the rain started was 1 meter. That was the hypotenuse of our triangle and using the angle of the rotation in the Y axis, we were able to adjust our x and z position transforms to correctly handle this rotation.</p>
+
+								<p>We also made great progress in to reading in a MIDI file and if that can work out, we will have access to any song we can find a file for to play on the piano.</p>
+
+								<p>For next week, our goal is to incorporate voice commands, allow for a manual positioning of the keyboard using some of the keys to incrementally move the keyboard to the right spot, and if there is time, to use a wav file for each of the notes which can be played though the hololens speakers when a note is pressed, and figure out a better way to show a user a note is coming and get ready to press it.</p>
+
+								<p>To do this: Seokmin and Matt will begin work on voice commands, Josh will work on manually placing the keyboard, and Hayoun will finish up the MIDI work and start on finding wav files for the sounds.</p>
+
+								<p>We are very pleased with our progress so far and can't wait to get working on the next part of the project!</p>
+								
+								
 							</div>
 						</section>
 
