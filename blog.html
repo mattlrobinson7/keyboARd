@@ -206,6 +206,31 @@
 									<ol>
 								</p>
 								
+							<hr />
+							
+								<h2>Week 9 KeyboARd Update</h2>		
+								<h5>May 19, 2016</h5>
+								
+								<p>
+									After all the troubles we had last week with our repository not working and having to basically recreate that, we actually ended up having a very productive week. We implemented more manual adjustment controls for the keyboard, made the keyboard fade away once it’s placed so all you see are the lights, fixed an issue with the timing of the key light up, created a main menu UI, downloaded some more simple songs, created a tutorial to teach users how to use the app, and are working towards making the keyboard placement happen only one time and having that position persist through every scene so the user never has to worry about picking up and placing the keyboard themselves.
+								</p>
+								
+								<p>
+									The toughest issue that we faced this week was the timing of the key light up. The problem arose because with the midi files, not all notes are the same length and because of that, the music rain would come out of the front of the keyboard and the note would stop lighting up too early. We figured out that because the position of the notes are measured from their centers, using some math would allow us to determine if the top of the music rain was at the top of the key (signifying that the note was done). To solve the issue of the music rain running through the front of the keyboard, we created a “cover” that was completely black and all of the notes ran out of the keyboard under it. So that when someone is using it in the hololens, the cover looks transparent but all the notes below it are occluded.
+
+								</p>
+								
+								<p>
+									This week will be our time to double down our efforts in order to make the dress rehearsal demo look polished. Our goal is to make the UI cleaner and simpler, use a hand model for our tutorial, focus really hard on figuring out position persisting across multiple scenes so that the piano only has to be set once, and lots of play testing.
+								</p>
+								
+								<p>
+									Josh will be working on the UI and connecting all of the scenes together in a clean manner. Seokmin is working on the position persisting of the virtual keyboard. Hayoun is working with the hand model to help in the tutorial. And Matt is putting the finishing touches on the tutorial, starting the final video, and beginning work on the UI as well.
+								</p>
+								
+								<p>
+									We hope that the demo next week goes very well and we expect it to, but it will also be good for us to get a lot of eyes on our project so that we can have everything perfectly polished when it comes time for our real demo on the 9th.
+								</p>
 							</div>
 						</section>
 
